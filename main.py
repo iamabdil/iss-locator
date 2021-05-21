@@ -4,9 +4,7 @@ import smtplib
 import time
 import os
 
-# MY_EMAIL = "pythontest384@gmail.com"
 MY_EMAIL = os.environ['MY_EMAIL']
-# MY_PASS = ""
 MY_PASS = os.environ['MY_PASS']
 MY_LAT = 51.507351
 MY_LONG = -0.127758
